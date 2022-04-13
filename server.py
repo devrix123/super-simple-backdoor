@@ -4,7 +4,7 @@ import socket # yang terutama sekali
 import threading # biar makin dinasmis
 import time # hehe:D
 
-soket=socket.socket()
+soket=socket.socket() # buat objek soket
 host="192.168.100.167" # bisa dialokasikan
 port=9901                              # bisa dialokasikan
 soket.bind((host,port))
