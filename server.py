@@ -6,7 +6,7 @@ import time # hehe:D
 
 soket=socket.socket() # buat objek soket
 host="192.168.100.167" # bisa dialokasikan
-port=9901                              # bisa dialokasikan
+port=9901 # bisa dialokasikan
 soket.bind((host,port))
 perintah ="1" # aku masih mencari tahu cara agar perintah ini dapat diubah ubah saat menjalankan program point 1
 
